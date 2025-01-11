@@ -14,9 +14,83 @@
     <title>Aliance Production</title>
   </head>
   <body>
+    <div class="mobile-menu">
+      <ul class="mobile-menu-nav">
+        <li class="mobile-menu-nav-item">
+          <a href="#" class="mobile-menu-nav-link">О компании</a>
+        </li>
+        <li class="mobile-menu-nav-item">
+          <a href="#" class="mobile-menu-nav-link">Контрактное производство</a>
+          <ul class="mobile-submenu">
+            <li class="mobile-submenu-item">
+              <a href="" class="mobile-menu-link">Автомобильная химия</a>
+            </li>
+            <li class="mobile-submenu-item">
+              <a href="" class="mobile-menu-link">Бытовая химия</a>
+            </li>
+            <li class="mobile-submenu-item">
+              <a href="" class="mobile-menu-link">Дезинфицирующие средства</a>
+            </li>
+            <li class="mobile-submenu-item">
+              <a href="" class="mobile-menu-link">Пищевые аэрозоли</a>
+            </li>
+            <li class="mobile-submenu-item">
+              <a href="" class="mobile-menu-link">Косметическая продукция</a>
+            </li>
+            <li class="mobile-submenu-item">
+              <a href="" class="mobile-menu-link">Краски аэрозольные</a>
+            </li>
+          </ul>
+        </li>
+        <li class="mobile-menu-nav-item">
+          <a href="#" class="mobile-menu-nav-link"
+            >Собственные торговые марки</a
+          >
+          <ul class="mobile-submenu">
+            <li class="mobile-submenu-item">
+              <a href="" class="mobile-menu-link">Автохимия AG-Tech</a>
+            </li>
+            <li class="mobile-submenu-item">
+              <a href="" class="mobile-menu-link">Автохимия AP</a>
+            </li>
+          </ul>
+        </li>
+        <li class="mobile-menu-nav-item">
+          <a href="#" class="mobile-menu-nav-link">Новости</a>
+        </li>
+        <li class="mobile-menu-nav-item">
+          <a href="#" class="mobile-menu-nav-link">Контакты</a>
+        </li>
+      </ul>
+
+      <a href="tel:+74996861014" class="mobile-phone">+7 (499) 686-10-14</a>
+      <div class="mobile-info">
+        <svg class="mobile-address-icon">
+          <use xlink:href="img/icons.svg#phone"></use>
+        </svg>
+        <address class="mobile-info-address">
+          г. Мосвка, Холодильный пер. 4к1с8
+        </address>
+      </div>
+      <!-- /.mobile-info -->
+      <div class="mobile-info">
+        <svg class="mobile-address-icon">
+          <use xlink:href="img/icons.svg#phone"></use>
+        </svg>
+        <a href="mailto:a.dragunov@tdaliance.ru" class="mobile-info-mail">
+          a.dragunov@tdaliance.ru
+        </a>
+      </div>
+      <!-- /.mobile-info -->
+    </div>
     <nav class="navbar">
+      <a href="" class="mobile-menu-toggle">
+        <div class="mobile-menu-line"></div>
+        <div class="mobile-menu-line"></div>
+        <div class="mobile-menu-line"></div>
+      </a>
       <a href="./" class="header-logo">
-        <svg class="logo-svg" width="144" height="44">
+        <svg class="logo-svg">
           <use xlink:href="img/icons.svg#logo"></use>
         </svg>
       </a>
@@ -38,16 +112,19 @@
         </li>
       </ul>
       <div class="header-phone">
-        <!-- <svg class="logo-svg" width="24" height="24">
+        <svg class="phone-icon">
           <use xlink:href="img/icons.svg#phone"></use>
-        </svg> -->
-        <img src="img/phone.svg" alt="" />
+        </svg>
+        <!-- <img src="img/phone.svg" alt="" /> -->
 
         <a href="tel:+74996861014" class="header-phone-link"
           >+7 (499) 686-10-14</a
         >
       </div>
-      <button class="header-button button">Получить консультацию</button>
+      <button class="header-button button">
+        <img src="img/phone_mob.svg" alt="" class="button-icon" />
+        <span class="button-text">Получить консультацию</span>
+      </button>
     </nav>
     <!-- /.navbar -->
     <header class="header header-image">
